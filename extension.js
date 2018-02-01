@@ -14,7 +14,7 @@
      $('p').mouseleave(function(){
         var ani = $(this); 
         setTimeout(function()
-        {ani.animate({opacity: 1}, 1500);},10000);//delay for p to return
+        {ani.animate({opacity: 1}, 1500);},30000);//delay for p to return
     });
     
     $('b').mouseenter(function(){
@@ -24,7 +24,7 @@
      $('b').mouseleave(function(){
         var ani = $(this); 
         setTimeout(function()
-        {ani.animate({opacity: 1}, 1500);},10000);
+        {ani.animate({opacity: 1}, 1500);},30000);
     });
     
     $('i').mouseenter(function(){
@@ -35,7 +35,7 @@
      $('i').mouseleave(function(){
         var ani = $(this); 
         setTimeout(function()
-        {ani.animate({opacity: 1}, 1500);},10000);
+        {ani.animate({opacity: 1}, 1500);},30000);
     });
     
     $('li').mouseenter(function(){
@@ -45,7 +45,7 @@
      $('li').mouseleave(function(){
         var ani = $(this); 
         setTimeout(function()
-        {ani.animate({opacity: 1}, 1500);},10000);
+        {ani.animate({opacity: 1}, 1500);},30000);
     });
     
     $('span').mouseenter(function(){
@@ -55,7 +55,7 @@
      $('span').mouseleave(function(){
         var ani = $(this); 
         setTimeout(function()
-        {ani.animate({opacity: 1}, 1500);},10000);
+        {ani.animate({opacity: 1}, 1500);},30000);
     });
     
     $('a').mouseenter(function(){
@@ -66,7 +66,7 @@
      $('a').mouseleave(function(){
         var ani = $(this); 
         setTimeout(function()
-        {ani.animate({opacity: 1}, 1500);},10000);
+        {ani.animate({opacity: 1}, 1500);},30000);
     });
     
     $('style-scope ytd-watch').mouseenter(function(){
@@ -77,7 +77,7 @@
      $('style-scope ytd-watch').mouseleave(function(){
         var ani = $(this); 
         setTimeout(function()
-        {ani.animate({opacity: 1}, 1500);},10000);
+        {ani.animate({opacity: 1}, 1500);},30000);
     });
     
     $('input').mouseenter(function(){
@@ -88,7 +88,7 @@
      $('input').mouseleave(function(){
         var ani = $(this); 
         setTimeout(function()
-        {ani.animate({opacity: 1}, 1500);},10000);
+        {ani.animate({opacity: 1}, 1500);},30000);
     });
     
      $('header').mouseenter(function(){
@@ -99,7 +99,7 @@
      $('header').mouseleave(function(){
         var ani = $(this); 
         setTimeout(function()
-        {ani.animate({opacity: 1}, 1500);},10000);
+        {ani.animate({opacity: 1}, 1500);},30000);
     });
     
      $('mainContainer').mouseenter(function(){
@@ -109,18 +109,18 @@
      $('mainContainer').mouseleave(function(){
         var ani = $(this); 
         setTimeout(function()
-        {ani.animate({opacity: 1}, 1500);},10000);
+        {ani.animate({opacity: 1}, 1500);},30000);
     });
     
-     $('sc-button-like sc-button sc-button-small sc-button-icon sc-button-lightfg sc-button-nostyle sc-button-selected').mouseenter(function(){
+     $('button').mouseenter(function(){
         $(this).animate({opacity: 0}, 1500);
         $('*').css( 'cursor', 'default' );
-        $('sc-button-like sc-button sc-button-small sc-button-icon sc-button-lightfg sc-button-nostyle sc-button-selected').click(false);  
+        $('button').click(false);  
     });
-     $('sc-button-like sc-button sc-button-small sc-button-icon sc-button-lightfg sc-button-nostyle sc-button-selected').mouseleave(function(){
+     $('button').mouseleave(function(){
         var ani = $(this); 
         setTimeout(function()
-        {ani.animate({opacity: 1}, 1500);},10000);
+        {ani.animate({opacity: 1}, 1500);},30000);
     });
     
     $('href').mouseenter(function(){
@@ -131,7 +131,7 @@
      $('href').mouseleave(function(){
         var ani = $(this); 
         setTimeout(function()
-        {ani.animate({opacity: 1}, 1500);},10000);
+        {ani.animate({opacity: 1}, 1500);},30000);
     });
     
     
