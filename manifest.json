@@ -1,10 +1,10 @@
 {
-	"name": "Puppify",
-	"description": "Take any bland website and make it pupperific.",
+	"name": "Ghosting",
+	"description": "Take any website and make it fade away.",
 	"version": "2.0",
 	"homepage_url": "http://www.jeffreythompson.org",
 	"browser_action": {
-		"default_title": "Puppify!",
+		"default_title": "Ghosting!",
 		"default_icon": "icon.png"
 	},
 	"permissions": [
